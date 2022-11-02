@@ -2,6 +2,7 @@ import React from 'react';
 
 // common components
 import Header from './views/components/header';
+import Footer from './views/components/footer';
 
 // styles and fonts
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +19,8 @@ function App() {
 
 
       <h1 className='container'>Hello, World!</h1>
+
+      <Footer></Footer>
     </div>
   );
 }
