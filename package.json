@@ -1,9 +1,9 @@
 {
-  "name": "comp2112-f2022-ice8",
+  "name": "comp2112-f2022-ice9",
   "version": "0.1.0",
   "description": "demo react app for comp2112",
   "main": "index.js",
-  "repository": "https://github.com/abraham107/COMP2112-F2022-ICE-8.git",
+  "repository": "https://github.com/abraham107/COMP2112-F2022-ICE-9.git",
   "author": "abraham107 <abrahamsamuel107@gmail.com>",
   "license": "MIT",
   "private": true,

@@ -18,6 +18,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
 
 // JavaScript libraries
+import $ from 'jquery';
 import 'jquery/dist/jquery.min.js';
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
       <BrowserRouter>
       <Header></Header>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={<Home  displayName='Rich' name={''} />}></Route>
+        <Route path="/home" element={<Home displayName='Rich' name={''} />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
         <Route path="/services" element={<Services />}></Route>
