@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Services() {
-    let services = ["Web Design", "Custom programming"]
+
+    useEffect(() =>{
+        document.title = "Home";
+},[]);
+
+    let services = ["Web Design", "Custom programming", "Mobile Application"]
+
     return (
         <div className="container">
             <h1>About us!</h1>
@@ -10,7 +16,7 @@ function Services() {
             <div className="row"></div>
             <ul className="list-group">
                 {
-                services.map((service) => (<li>{service}</li>))
+                services.map((service) => (<li className="list-group-item" key={"i"}>{service}</li>))
                 }
             </ul>
         </div>
