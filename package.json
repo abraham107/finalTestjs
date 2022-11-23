@@ -1,9 +1,9 @@
 {
-  "name": "comp2112-f2022-ice10",
+  "name": "comp2112-f2022-assignment-2",
   "version": "0.3.0",
   "description": "demo react app for comp2112",
   "main": "index.js",
-  "repository": "https://github.com/abraham107/COMP2112-F2022-ICE-9.git",
+  "repository": "https://github.com/abraham107/COMP2112-F2022-assignment2advjs.git",
   "author": "abraham107 <abrahamsamuel107@gmail.com>",
   "license": "MIT",
   "private": true,
