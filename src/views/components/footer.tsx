@@ -5,7 +5,7 @@ function Footer()
     return(
     <nav className="navbar fixed-bottom bg-light">
         <div className="container-fluid">
-            <h5>All Rights Reserved. COMP2112. &copy; Copyright 2022.</h5>
+            <h6>All Rights Reserved. Assignment-2. &copy; Copyright 2022.</h6>
         </div>
     </nav>
     );

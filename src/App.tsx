@@ -13,7 +13,6 @@ import Services from './views/content/services';
 import Contact from './views/content/contact';
 
 // TV Show list component
-import TVShowsList from './views/tvshows-list/tvshows-list';
 
 // styles and fonts
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -30,13 +29,12 @@ function App() {
       <BrowserRouter>
       <Header></Header>
       <Routes>
-        <Route path="/" element={<Home  displayName='Rich' name={'Rich'} />}></Route>
-        <Route path="/home" element={<Home displayName='Rich' name={''} />}></Route>
+        <Route path="/" element={<Home  displayName='User' name={''} />}></Route>
+        <Route path="/home" element={<Home displayName='' name={''} />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
         <Route path="/services" element={<Services />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/TVShows-list" element={<TVShowsList/>}></Route>
 
       </Routes>
       <Footer></Footer>
