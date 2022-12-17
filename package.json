@@ -1,7 +1,7 @@
 {
-  "name": "comp2112-f2022-assignment-2",
-  "version": "0.3.0",
-  "description": "demo react app for comp2112",
+  "name": "comp2112-f2022-final",
+  "version": "1.0.0",
+  "description": "React app for COMP2112 Final Exam in the Fall 2022 Semester at Georgian College",
   "main": "index.js",
   "repository": "https://github.com/abraham107/COMP2112-F2022-assignment2advjs.git",
   "author": "abraham107 <abrahamsamuel107@gmail.com>",
